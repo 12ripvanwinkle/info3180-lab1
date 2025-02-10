@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 <title>My Website - About</title>
 </head>
 <body>
@@ -9,5 +10,6 @@
 <p>I am 21, my major is computer science and my minor is Japanese. I a from Kingston. I went to Wolmer's High school. 
    I am tall. I can drive.
 </p>
+<img src="{{ url_for('static', filename='images/20241128_154120.jpg') }}" alt="">
 </body>
 </html>
